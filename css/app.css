@@ -3523,3 +3523,9 @@ span.lesson-card-header {
 .how-it-works-no-stress__text:last-child {
   margin-bottom: 0px;
 }
+
+.lets-connect{
+  color: #222;
+    font-weight: bold;
+    text-decoration: underline;
+}
