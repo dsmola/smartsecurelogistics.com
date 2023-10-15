@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/razrabot/smartsecurelogistics.com
+    - /bin/cp -R * $DEPLOYPATH/
+  exclude_files:
+    - .cpanel.yml
+    - README.md
